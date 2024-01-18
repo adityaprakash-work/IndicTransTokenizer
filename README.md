@@ -10,10 +10,15 @@ The goal of this repository is to provide a simple, modular, and extendable toke
 ## Configuration
  - Editable installation (Note, this may take a while):
 ```bash 
-git clone https://github.com/VarunGumma/IndicTransTokenizer
+git clone https://github.com/adityaprakash-work/IndicTransTokenizer
 cd IndicTransTokenizer
 
 pip install --editable ./
+```
+
+- Through `pip`:
+```bash
+pip install git+https://github.com/adityaprakash-work/IndicTransTokenizer.git
 ```
 
 ## Usage
@@ -47,7 +52,7 @@ print(outputs)
 
 For using the tokenizer to train/fine-tune the model, just set the `inference` argument of IndicProcessor to `False`.
 
-## Authors
+## Original authors
  - Varun Gumma (varun230999@gmail.com)
  - Jay Gala (jaygala24@gmail.com)
  - Pranjal Agadh Chitale (pranjalchitale@gmail.com)
@@ -59,7 +64,7 @@ Since this a bleeding-edge module, you may encounter broken stuff and import iss
 
 
 ## Citation
-If you use our codebase, models or tokenizer, please do cite the following paper:
+If you use this codebase, these models and tokenizer, please cite the following paper:
 ```bibtex
 @article{
     gala2023indictrans,
@@ -74,4 +79,4 @@ If you use our codebase, models or tokenizer, please do cite the following paper
 ```
 
 ## Note
-This tokenizer module is currently **not** compatible with the [PreTrainedTokenizer](https://huggingface.co/docs/transformers/v4.36.1/en/main_classes/tokenizer#transformers.PreTrainedTokenizer) module from HuggingFace. Hence, we are actively looking for `Pull Requests` to port this tokenizer to HF. Any leads on that front are welcome!
+This tokenizer module is currently **not** compatible with the [PreTrainedTokenizer](https://huggingface.co/docs/transformers/v4.36.1/en/main_classes/tokenizer#transformers.PreTrainedTokenizer) module from HuggingFace. I will be trying to make it compatible with the same in the future.
