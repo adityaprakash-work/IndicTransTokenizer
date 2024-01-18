@@ -33,7 +33,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/VarunGumma/IndicTransTokenizer",
     packages=find_packages(),
-    package_data={"": ["*.txt", "*.json", ".SRC", ".TGT"]},
+    package_data={"IndicTransTokenizer": ["*.json"]},
     include_package_data=True,
     license="MIT",
     classifiers=[
