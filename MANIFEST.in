@@ -1,0 +1,3 @@
+recursive-include IndicTransTokenizer/en-indic *
+recursive-include IndicTransTokenizer/indic-en *
+recursive-include IndicTransTokenizer/indic-indic *
